@@ -18,4 +18,9 @@ my_pet.train("roll over")
 
 my_pet.show_tricks()
 
+if my_pet.is_hungry():
+    print(f"⚠️ {my_pet.name} seems hungry! Maybe feed them again?")
+
+my_pet.cheer_up()
+
 my_pet.get_status()

@@ -40,6 +40,17 @@ class Pet:
         else:
             print(f"🤷 {self.name} hasn't learned any tricks yet.")
 
+    def is_hungry(self):
+        return self.hunger >= 7
+    
+    def cheer_up(self):
+        if self.happiness <= 3:
+             print(f"💖 {self.name} looks a bit sad. Giving extra cuddles!")
+             self.happiness = min(10, self.happiness + 3)
+        else:
+             print(f"😊 {self.name} is already happy!")
+    
+
     def get_status(self):
         print(f"\n📊 {self.name}'s Status Report 🐶")
         print(f"🔹 Type: {self.type}")
