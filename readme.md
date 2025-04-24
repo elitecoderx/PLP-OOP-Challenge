@@ -27,10 +27,3 @@ Create a `Pet` class that simulates a digital pet with basic needs and behaviors
 - `show_tricks()`: Displays all tricks the pet has learned.
 
 ---
-
-## 🏁 How to Run
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/Evans-mutuku/OOP-Challenge
-   cd OOP-Challenge
